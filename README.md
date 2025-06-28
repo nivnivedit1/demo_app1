@@ -33,15 +33,7 @@ The purpose is to improve HR transparency and allow administrators to quickly vi
 ---
 
 ## 📁 Folder Structure
-demo_app1/
-├── demo_app1/
-│ ├── api/
-│ │ ├── init.py
-│ │ └── employee_salary.py <-- Backend logic
-│ └── ...
-├── public/
-├── templates/
-├── README.md <-- This file
+<pre><code>```bash demo_app1/ ├── demo_app1/ │ ├── api/ │ │ ├── __init__.py │ │ └── employee_salary.py │ ├── public/ │ ├── templates/ │ ├── hooks.py │ └── modules.txt ├── README.md ``` </code></pre>
 
 
 
