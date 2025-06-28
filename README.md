@@ -2,7 +2,7 @@
 Dynamic Salary Assignment Viewer in ERPNext
 # Dynamic Salary Assignment Viewer in ERPNext
 
-## 🧾 Description
+## Description
 
 This project adds a custom feature to ERPNext that dynamically displays all salary structure assignments related to an employee inside the Employee form.
 
@@ -12,7 +12,7 @@ The purpose is to improve HR transparency and allow administrators to quickly vi
 
 ---
 
-## 🛠 Technologies Used
+##  Technologies Used
 
 - **Frappe Framework**
 - **ERPNext**
@@ -22,7 +22,7 @@ The purpose is to improve HR transparency and allow administrators to quickly vi
 
 ---
 
-## ⚙️ Features
+## Features
 
 - API endpoint to fetch salary structure assignments for a given employee ID.
 - Client script triggers on the `refresh` event of the Employee form.
@@ -32,8 +32,21 @@ The purpose is to improve HR transparency and allow administrators to quickly vi
 
 ---
 
-## 📁 Folder Structure
-<pre><code>```bash demo_app1/ ├── demo_app1/ │ ├── api/ │ │ ├── __init__.py │ │ └── employee_salary.py │ ├── public/ │ ├── templates/ │ ├── hooks.py │ └── modules.txt ├── README.md ``` </code></pre>
+##  Project Folder Structure
+
+```
+demo_app1/
+├── demo_app1/
+│   ├── api/
+│   │   ├── __init__.py          # Initializes the API module
+│   │   └── employee_salary.py   # Contains backend logic for salary data
+│   ├── public/                  # Static files (optional)
+│   ├── templates/               # Custom templates (optional)
+│   ├── hooks.py                 # Hook definitions for Frappe
+│   └── modules.txt              # Declares module names
+├── README.md                    # Project documentation
+```
+
 
 
 
